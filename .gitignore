@@ -1,0 +1,43 @@
+# Logs
+*.log
+storage/logs/*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# IDE / herramientas locales
+/.vscode
+/.idea
+/.fleet
+/.nova
+/.phpunit.cache
+/.phpactor.json
+/.zed
+
+# Dependencias
+/node_modules
+/vendor
+
+# Public build
+/public/build
+/public/hot
+/public/storage
+
+# Storage interno
+/storage/*.key
+/storage/pail
+
+# Configuración de Homestead / Vagrant
+Homestead.json
+Homestead.yaml
+
+# Cache y test
+.phpunit.result.cache
+npm-debug.log*
+yarn-error.log*
